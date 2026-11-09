@@ -16,10 +16,10 @@ layout: base
   {{ content }}
 
 
-  <h2>Recent Posts</h2>
   {% assign posts = site.categories[page.category] %}
 
   {%- if posts.size > 0 -%}
+  <h2>Recent Posts</h2>
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
