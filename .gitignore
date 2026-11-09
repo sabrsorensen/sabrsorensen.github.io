@@ -1,0 +1,13 @@
+# Nix / direnv
+.direnv/
+result
+
+# Bundler
+.bundle/
+vendor/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/

@@ -1,6 +1,49 @@
-title: sabrsorensen's dev.log
+title: sabrsorensen@earth:/var/log/dev.log
 description: Documenting projects, problems, and research
+baseurl: ""
+url: "https://sabrsorensen.github.io"
+timezone: America/Boise
+author:
+  name: Sam Sorensen
+  email: hello@nesneros.space
 
-remote_theme: pages-themes/cayman@v0.2.0
+permalink: /:categories/:title:output_ext
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:categories:output_ext
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Build settings
+remote_theme: jekyll/minima@4de3223
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
+minima:
+  date_format: "%b %-d, %Y"
+  github_username: sabrsorensen
+  nav_pages:
+    - projects/index.md
+  show_excerpts: true
+  skin: solarized-dark
+  social_links:
+      - title: sabrsorensen at GitHub
+        icon: github
+        url: "https://github.com/sabrsorensen/"
+      - title: This site at GitHub
+        icon: github
+        url: "https://github.com/sabrsorensen/sabrsorensen.github.io"
+
+exclude:
+  - flake.nix
+  - flake.lock
+  - Gemfile
+  - Gemfile.lock
+  - templates
+  - vendor

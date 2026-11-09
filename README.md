@@ -1,2 +1,2 @@
 # sabrsorensen.github.io
-GitHub Pages
+GitHub Pages documenting my projects and development logs.
