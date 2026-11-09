@@ -36,9 +36,6 @@ minima:
       - title: sabrsorensen at GitHub
         icon: github
         url: "https://github.com/sabrsorensen/"
-      - title: This site at GitHub
-        icon: github
-        url: "https://github.com/sabrsorensen/sabrsorensen.github.io"
 
 exclude:
   - flake.nix

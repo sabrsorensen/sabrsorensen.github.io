@@ -2,6 +2,4 @@
 title: Home
 ---
 
-Welcome! I'm Sam, a software engineer with experience building APIs, ETL pipelines, developer tooling, testing frameworks, integration test suites, reliable homelab services, and embedded systems. I like making things work better and building neat stuff, and I thought keeping a record of those efforts would give me a chance to hone my documentation and technical writing skills. Take a look at [Projects]({{ site.baseurl }}{% link projects/index.md %}) if you're ready to dive in.
-
-## Posts
+Welcome! I'm Sam, a software engineer with experience building APIs, ETL pipelines, developer tooling, testing frameworks, integration test suites, reliable homelab services, and embedded systems. I like making things work better and building neat stuff, and I thought keeping a record of those efforts would give me a chance to hone my documentation and technical writing skills. Take a look at [Projects]({{ site.baseurl }}{% link projects/index.md %}) if you're ready to dive in, or check out some of the recent posts below.
